@@ -1,0 +1,83 @@
+
+html,
+body {
+height: 100%;
+width: 100%
+}
+
+
+/*---Home and Nav---*/
+
+
+.center {
+display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: -11%;
+ width: 35%;
+}
+
+h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-top: 6%;
+  padding-bottom: 7%;
+  text-align: center;
+  color: white;
+}
+
+#home {
+  height: 100%;
+}
+
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+}
+
+.navbar-brand {
+  padding-left: 5%;
+}
+
+#welcome {
+    font-size: 180%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: -5%;
+  }
+
+
+.nav-item {
+  padding-left: 5%;
+}
+
+#collapsibleNavbar {
+  padding-right: 5%;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*---Portfolio---*/
+
+
+
+
+
+/*---About---*/
+
+#about {
+  height: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    .center{
+         width: 300px;
+    }
+}
